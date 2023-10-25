@@ -1,0 +1,58 @@
+body
+{
+    font-family: sans-serif;
+    margin: auto 0;
+    background-color: white;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+.container{
+    border: 7px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left-sidebar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20%; 
+    margin-right: 30%;
+}
+
+h3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+
+}
+
+.centered{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    height: 100vh;
+}
+
+.opening-hours {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 3%;
+ }
+
+ body {
+    background-image: url("img/backgroundFinal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+

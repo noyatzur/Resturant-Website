@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="menu.css">
+    <script src="menu.js"></script>
+</head>
+
+<body>
+    <h1>menu:</h1>
+    <figure style="position: relative;">
+        <figcaption style="position: absolute; top: 47%; left: 45.5%"></figcaption>
+        <img src="img/food3.jpg" style="width: 30%; margin-left: 35%;" alt="Logo">
+    </figure>
+    <div class="container">Opening dishes:</div>
+    <p>
+    <ul>
+        <li>Plate spicy, spicy.............................15$</li>
+        <li>Greek salad.....................................15$</li>
+        <li>Fried cauliflower...............................12$</li>
+        <li>fries..................................................10$</li>
+        <li>sweet potato fries............................13$</li>
+        <li>Fried fish.........................................16$</li>
+    </ul>
+
+
+    </p>
+    <div class="container">Main dishes:</div>
+    <p>
+    <ul>
+        <li>Shakshuka Bread ...........................20$</li>
+        <li>French toast.....................................22$</li>
+        <li>Salomon Fish...................................25%</li>
+        <li>Lamb chops......................................27$</li>
+        <li>Entrecote steak.................................27$</li>
+        <li>
+            hamburger.........................................13$
+            <select name="gram" onchange="calculatePrice(this)">
+                <option value="200">200 gram</option>
+                <option value="250">250 gram</option>
+                <option value="300">300 gram</option>
+                <option value="350">350 gram</option>
+            </select>
+            <div class="hamburger"></div>
+        </li>
+    </ul>
+    </p>
+
+    
+    <div class="container">Desserts :</div>
+    <p>
+    <ul>
+        <li>Chocolate cake..................................15$</li>
+        <li>French crepe......................................15$</li>
+        <li>ice cream...........................................12$
+            <select name="type" onchange="calculateIceCream(this)">
+                <option value=" strawberry">  strawberry</option>
+                <option value="chocolate"> chocolate</option>
+                <option value="vanil">vanil</option>
+                
+            </select>
+            <div class="hamburger"></div>
+        </li>
+        
+    </ul>
+
+
+    </p>
+    
+
+  
+</body>
+
+</html>

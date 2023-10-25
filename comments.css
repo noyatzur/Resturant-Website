@@ -1,0 +1,12 @@
+body
+{
+    font-family: sans-serif;
+    margin: auto 0;
+    background-color: white;
+}
+body {
+    background-image: url("img/backgroundFinal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

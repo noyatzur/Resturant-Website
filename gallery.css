@@ -1,0 +1,39 @@
+body
+{
+    font-family: sans-serif;
+    margin: auto 0;
+    background-color: white;
+}
+
+body {
+    background-image: url("img/backgroundFinal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+.contaner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+figure {
+    width: 48%; 
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}

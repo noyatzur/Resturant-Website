@@ -1,0 +1,85 @@
+body {
+    font-family: sans-serif;
+    margin: auto 0;
+    background-color:white;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+.frontPage button {
+    background-color:black;
+    background-color: antiquewhite;
+    color: white;
+    border: 3px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    margin-left: 11.5%;
+    margin-top: 3%;
+}
+
+.frontPage button:hover {
+    background-color: bisque;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9%;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9%;
+}
+
+.Reservation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13%;
+}
+
+.comments {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12%;
+}
+
+
+
+.centered {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    height: 100vh;
+}
+
+.opening-hours {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 3%;
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    background-image: url("img/backgroundFinal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
