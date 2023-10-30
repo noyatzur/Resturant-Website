@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="menu.css">
-    <script src="menu.js"></script>
+    <link rel="stylesheet" href="/css/menu.css">
+    <script src="/menu.js"></script>
 </head>
 
 <body>
     <h1>menu:</h1>
     <figure style="position: relative;">
         <figcaption style="position: absolute; top: 47%; left: 45.5%"></figcaption>
-        <img src="img/food3.jpg" style="width: 30%; margin-left: 35%;" alt="Logo">
+        <img src="/img/food3.jpg" style="width: 30%; margin-left: 35%;" alt="Logo">
     </figure>
     <div class="container">Opening dishes:</div>
     <p>
@@ -37,14 +37,16 @@
         <li>Lamb chops......................................27$</li>
         <li>Entrecote steak.................................27$</li>
         <li>
-            hamburger.........................................13$
+            <div class="hamburger">
+                hamburger.........................................13$
+            </div>
+            
             <select name="gram" onchange="calculatePrice(this)">
                 <option value="200">200 gram</option>
                 <option value="250">250 gram</option>
                 <option value="300">300 gram</option>
                 <option value="350">350 gram</option>
             </select>
-            <div class="hamburger"></div>
         </li>
     </ul>
     </p>

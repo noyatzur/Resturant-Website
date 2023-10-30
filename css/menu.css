@@ -2,7 +2,10 @@ body
 {
     font-family: sans-serif;
     margin: auto 0;
-    background-color: white;
+    background-image: url("/img/backgroundFinal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 h1{
@@ -20,8 +23,8 @@ h1{
 
 }
 ul {
-    list-style-type: none; /* מסתיר סמלי הרשימה */
-    padding: 0; /* מסיר מרווח ברירת מחדל של הרשימה */
+    list-style-type: none; 
+    padding: 0; 
 }
 
 li {
@@ -29,12 +32,7 @@ li {
    margin-left: 35%;
 }
 
-body {
-    background-image: url("img/backgroundFinal.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+
 
 
 

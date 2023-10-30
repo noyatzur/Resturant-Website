@@ -25,7 +25,8 @@ function calculatePrice(select){
     }
     
     const divElement = document.querySelector('.hamburger');
-    divElement.textContent = `hamburger.........................................${price}$`; 
+    divElement.textContent = "";
+    divElement.textContent =`hamburger.........................................${price}$`; 
 }
 
 function calculateIceCream(select){
