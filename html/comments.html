@@ -4,11 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet"  href="/css/comments.css">
-</head>
+    <link rel="stylesheet" href="/css/comments.css">
+    <script src="/js/comments.js"></script>
 </head>
 <body>
-    <hi>hi2</hi>
-    
+    <button onclick="navigateToBACK()">BACK</button>
+    <script>
+        
+        function  navigateToBACK(){
+            window.location.replace("Reservation.html");
+
+        }
+    </script>
+    <h2>Restaurant Comments</h2>
+    <div class="container">
+        <form  id="commentsForm">
+            <label for="name">Your name is:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <br>
+            <label for="comment">Your comment is:</label>
+            <textarea id="comment" name="comment" required></textarea>
+        
+            <button type="button" onclick="submitComment()" required>Send my comment</button>
+        
+            <div id="Comments"></div>
+        </form>
+    </div>
+
+  
+    <h2>Rate the Restaurant</h2>
+    <div class="rating" id="ratingStars">
+        <span class="star" onclick="rateRestaurant(1)"></span>
+        <span class="star" onclick="rateRestaurant(2)"></span>
+        <span class="star" onclick="rateRestaurant(3)"></span>
+        <span class="star" onclick="rateRestaurant(4)"></span>
+        <span class="star" onclick="rateRestaurant(5)"></span>
+    </div>
+  
 </body>
 </html>
