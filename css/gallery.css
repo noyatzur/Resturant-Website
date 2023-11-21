@@ -30,6 +30,9 @@ h1{
     justify-content: space-around;
     align-items: center;
 }
+.BigBorder{
+    border: solid 4px black;
+}
 
 .border {
     border: solid 2px black;
@@ -55,4 +58,17 @@ img{
     width: 200px;
     height: 200px;
     margin: 10px;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    height: 100vh;
+}
+
+.opening-hours {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 3%;
 }
